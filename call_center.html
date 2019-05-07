@@ -12,6 +12,34 @@
 
     <!-- 自定义样式 -->
     <link href="./css/currency.css" rel="stylesheet">
+
+    <style>
+        #call-banner1{
+            height: 350px;
+            background: url('./images/call_banner1.jpg') no-repeat;
+            background-size: cover;
+        }
+        #call-banner2{
+            height: 600px;
+            position: relative;
+            background: url('./images/call_banner2.jpg') no-repeat center,transparent;
+        }
+        #call-banner3{
+            height: 600px;
+            position: relative;
+            background-color: #fff;
+        }
+        #call-banner4{
+            height: 600px;
+            position: relative;
+            background: url('./images/call_banner4.jpg') no-repeat center,transparent;
+        }
+        #call-banner5{
+            height: 600px;
+            position: relative;
+            background-color: #fff;
+        }
+    </style>
     <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
     <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
     <!--[if lt IE 9]>
@@ -49,6 +77,49 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+
+<!--横幅-->
+<div class="container-fluid">
+    <div class="row" id="call-banner1">
+        <img src="./images/call_banner1.jpg" height="100%" width="100%;">
+    </div>
+
+    <div class="row" id="call-banner2">
+        <div class="col-md-5 col-md-offset-1" style="top:50%;margin-top: -50px;position: absolute;">
+            <span style="font-size: 36px;color: rgb(255, 255, 255);">一键拨号外呼</span><br>
+            <p style="color: rgb(222, 222, 222);line-height: 24px;margin-top: 20px;">呼叫系统与软件CRM系统深度融合，在系统中直接点击拨号
+系统自动弹出写跟进窗口，省去手工拨号的麻烦，方便快捷</p>
+        </div>
+    </div>
+
+    <div class="row" id="call-banner3">
+        <div class="col-md-5 col-md-offset-1" style="background: url('./images/call_banner3-2.png') no-repeat center,transparent;">
+        </div>
+        <div class="col-md-4 col-md-offset-1" style="top:50%;margin-top: -50px;position: absolute;">
+            <span style="font-size: 36px;color: #212121;">通话记录统计</span><br>
+            <p style="color: rgb(75, 75, 75);line-height: 24px;margin-top: 20px;">系统自动记录每次通话的号码、通话时长和接听状态等详细内容提供多种维度的统计报表，支持按照日、月、年查询统计</p>
+        </div>
+    </div>
+
+    <div class="row" id="call-banner4">
+        <div class="col-md-5 col-md-offset-1" style="top:50%;margin-top: -50px;position: absolute;">
+            <span style="font-size: 36px;color: rgb(255, 255, 255);">通话录音</span><br>
+            <p style="color: rgb(222, 222, 222);line-height: 24px;margin-top: 20px;">自动生成通话录音并在客户名下产生一条跟进记录，录音可在线播放和下载，方便管理者对服务质量的监控</p>
+        </div>
+        <div class="col-md-5 col-md-offset-1" style="background: url('./images/call_banner4-2.png') no-repeat center,transparent;">
+        </div>
+    </div>
+
+    <div class="row" id="call-banner5">
+        <div class="col-md-5 col-md-offset-1" style="background: url('./images/call_banner5.png') no-repeat center,transparent;">
+        </div>
+        <div class="col-md-4 col-md-offset-1" style="top:50%;margin-top: -50px;position: absolute;">
+            <span style="font-size: 36px;color: #212121;">来电弹屏</span><br>
+            <p style="color: rgb(75, 75, 75);line-height: 24px;margin-top: 20px;">客户来电话时，电脑自动弹出客户的基本资料，同时显示所有历史记录，并可快速创建新的跟进记录，全面掌握客户情况</p>
+        </div>
+    </div>
+</div>
+
 <!--底部-->
 <footer>
     <div class="container">
