@@ -17,8 +17,43 @@
         #what-is{
             background-color: #FFF;
         }
+        .introduce-title{
+            font-size: 48px;
+            text-align: center;
+            margin: 80px 0px 20px 0px;
+        }
+        .introduce-content{
+            margin: 26px 0px;
+            font-size: 14px;
+            color: rgb(128, 128, 128);
+        }
+
         #why-use{
             background-color: #f4f4f4;
+        }
+        .use-item-bgimg{
+            width:87px;
+            height:87px;
+            position: relative;
+        }
+        .use-item-icon{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .use-item-title{
+            font-size: 24px;
+            color: rgb(33, 33, 33);
+        }
+        .use-item-notes{
+            font-size: 16px;
+            color: rgb(89, 89, 89);
+        }
+        .use-item-content{
+            margin: 26px 0px 52px 0px;
+            font-size: 14px;
+            color: rgb(128, 128, 128);
         }
     </style>
 
@@ -60,71 +95,112 @@
     </div><!-- /.container-fluid -->
 </nav>
 
-<!--介绍-头图-->
+<!--头图-->
 <div class="container-fluid">
     <div class="row">
         <img src="./images/introduce1.jpg" height="100%" width="100%;">
     </div>
 </div>
+
+<!--媒体信息流-->
 <div class="container-fluid" id="what-is">
     <div class="row">
-        <div class="col-md-12" style="text-align: center;">
-            <span style="font-size: 48px;">我们是什么？</span>
+        <div class="col-md-12 introduce-title">
+            <span>我们是什么？</span>
         </div>
     </div>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <p>我们的软件是一个简单实用的客户关系管理系统(CRM)，它是专为中小销售团队量身设计的，以简单实用为主。采用云计算方式提供服务，拥有网页版和手机版，多终端数据完全实时同步。</p>
+            <p class="introduce-content">我们的软件是一个简单实用的客户关系管理系统(CRM)，它是专为中小销售团队量身设计的，以简单实用为主。采用云计算方式提供服务，拥有网页版和手机版，多终端数据完全实时同步。</p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <p>在设计上力求简单、实用，一看就能懂。使用我们的软件，可以保存客户资料及相关信息不丢失，有效积累客户，防止撞客，提高销售业绩，防止因员工离职导致客户流失，并有效促进团队协作。</p>
+            <p class="introduce-content">在设计上力求简单、实用，一看就能懂。使用我们的软件，可以保存客户资料及相关信息不丢失，有效积累客户，防止撞客，提高销售业绩，防止因员工离职导致客户流失，并有效促进团队协作。</p>
         </div>
     </div>
-    <div class="row" align="center">
-        <img src="./images/introduce2.png" width="582px;">
+    <div class="row">
+        <div class="col-md-12" align="center" style="margin:50px 0px 100px 0px;">
+            <img src="./images/introduce2.png" width="582px;">
+        </div>
     </div>
 </div>
 
 <div class="container-fluid" id="why-use">
     <div class="row">
-        <div class="col-md-12" style="text-align: center;">
-            <span style="font-size: 48px;">为什么要使用我们？</span>
+        <div class="col-md-12 introduce-title">
+            <span>为什么要使用我们？</span>
         </div>
     </div>
+
     <div class="row">
-        <div class="col-md-1 col-md-offset-1">.col-md-1</div>
-        <div class="col-md-9">
-            <span style="color: rgb(33, 33, 33); font-size: 24px;">完整的记录所有客户资料，永不丢失</span><br>
-            <span style="color: rgb(89, 89, 89);">—— 取代Excel或笔记本，防止员工离职致客户流失</span>
-            <p style="color: rgb(128, 128, 128); margin-top: 26px;">完善的客户资料管理功能，可对客户进行分门别类的管理，方便查询，每个客户的状态、历史跟进情况都一目了然。即使员工离职他的客户资料、跟进情况也都完整的保留下来不会流失，新人很容易接手。当工作基于客户无忧进行，所有一切都有历史记录可查，5年后，10年后，今天的工作记录依然可以查询到。</p>
+        <div class="col-md-10 col-md-offset-1">
+            <div class="media">
+                <div class="media-left media-top" style="padding-right: 26px;">
+                    <div class="use-item-bgimg" style="background: url('./images/introduce_bgimg1.png') no-repeat center;">
+                            <img class="media-object use-item-icon" src="./images/introduce_icon1.png">
+                    </div>
+                </div>
+                <div class="media-body">
+                    <span class="use-item-title">完整的记录所有客户资料，永不丢失</span><br>
+                    <span class="use-item-notes">—— 取代Excel或笔记本，防止员工离职致客户流失</span><br>
+                    <p class="use-item-content">完善的客户资料管理功能，可对客户进行分门别类的管理，方便查询，每个客户的状态、历史跟进情况都一目了然。即使员工离职他的客户资料、跟进情况也都完整的保留下来不会流失，新人很容易接手。当工作基于客户无忧进行，所有一切都有历史记录可查，5年后，10年后，今天的工作记录依然可以查询到。</p>
+                </div>
+            </div>
         </div>
     </div>
+
     <div class="row">
-        <div class="col-md-1 col-md-offset-1">.col-md-1</div>
-        <div class="col-md-9">
-            <span style="color: rgb(33, 33, 33); font-size: 24px;">高效的团队协作</span><br>
-            <span style="color: rgb(89, 89, 89); font-size: 16px;">—— 成员间共享协作，数据实时同步，工作效率大大提高</span>
-            <p style="color: rgb(128, 128, 128); font-size: 14px; margin-top: 26px;">团队中每个人一个独立的账户，业务员录入的客户资料及拜访跟进情况，上级领导立即就可以查看到，并可对其进行批注。上级可以给下级分配工作任务并监控完成情况，管理人员在任何地方通过电脑或手机就能实时掌控下属的工作情况。告别过去下属定期向上级提交自己的客户资料的方式，保证数据的绝对实时同步。</p>
+        <div class="col-md-10 col-md-offset-1">
+            <div class="media">
+                <div class="media-left media-top" style="padding-right: 26px;">
+                    <div class="use-item-bgimg" style="background: url('./images/introduce_bgimg2.png') no-repeat center;">
+                        <img class="media-object use-item-icon" src="./images/introduce_icon2.png">
+                    </div>
+                </div>
+                <div class="media-body">
+                    <span class="use-item-title">高效的团队协作</span><br>
+                    <span class="use-item-notes">—— 成员间共享协作，数据实时同步，工作效率大大提高</span><br>
+                    <p class="use-item-content">团队中每个人一个独立的账户，业务员录入的客户资料及拜访跟进情况，上级领导立即就可以查看到，并可对其进行批注。上级可以给下级分配工作任务并监控完成情况，管理人员在任何地方通过电脑或手机就能实时掌控下属的工作情况。告别过去下属定期向上级提交自己的客户资料的方式，保证数据的绝对实时同步。</p>
+                </div>
+            </div>
         </div>
     </div>
+
     <div class="row">
-        <div class="col-md-1 col-md-offset-1">.col-md-1</div>
-        <div class="col-md-9">
-            <span style="color: rgb(33, 33, 33); font-size: 24px;">待办事项/工作任务提醒</span><br>
-            <span style="color: rgb(89, 89, 89); font-size: 16px;">—— 您忠实的个人助理</span>
-            <p style="color: rgb(128, 128, 128); font-size: 14px; margin-top: 26px;">团队中每个人一个独立的账户，业务员录入的客户资料及拜访跟进情况，上级领导立即就可以查看到，并可对其进行批注。上级可以给下级分配工作任务并监控完成情况，管理人员在任何地方通过电脑或手机就能实时掌控下属的工作情况。告别过去下属定期向上级提交自己的客户资料的方式，保证数据的绝对实时同步。</p>
+        <div class="col-md-10 col-md-offset-1">
+            <div class="media">
+                <div class="media-left media-top" style="padding-right: 26px;">
+                    <div class="use-item-bgimg" style="background: url('./images/introduce_bgimg3.png') no-repeat center;">
+                        <img class="media-object use-item-icon" src="./images/introduce_icon3.png">
+                    </div>
+                </div>
+                <div class="media-body">
+                    <span class="use-item-title">待办事项/工作任务提醒</span><br>
+                    <span class="use-item-notes">—— 您忠实的个人助理</span><br>
+                    <p class="use-item-content">待办任务提醒、客户生日提醒、客户生日自动发祝福，节假日祝福自动处理，让您的工作省时省力。通过完善的任务功能，能让您的工作目标清晰，井然有序。</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-1 col-md-offset-1">.col-md-1</div>
-        <div class="col-md-9">
-            <span style="color: rgb(33, 33, 33); font-size: 24px;">电脑和手机实时同步</span><br>
-            <span style="color: rgb(89, 89, 89); font-size: 16px;">—— 出门在外也可随时随地管理自己的业务</span>
-            <p style="color: rgb(128, 128, 128);font-size: 14px;  margin-top: 26px;">拥有电脑版和手机版，手机版数据与电脑完全实时同步，出门在外，一样可以随时查询、管理自己的业务。不再受时间与地域的限制。</p>
+
+    <div class="row" style="margin-bottom: 100px;">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="media">
+                <div class="media-left media-top" style="padding-right: 26px;">
+                    <div class="use-item-bgimg" style="background: url('./images/introduce_bgimg4.png') no-repeat center;">
+                        <img class="media-object use-item-icon" src="./images/introduce_icon4.png">
+                    </div>
+                </div>
+                <div class="media-body">
+                    <span class="use-item-title">电脑和手机实时同步</span><br>
+                    <span class="use-item-notes">—— 出门在外也可随时随地管理自己的业务</span><br>
+                    <p class="use-item-content" style="margin-bottom: 0px;">拥有电脑版和手机版，手机版数据与电脑完全实时同步，出门在外，一样可以随时查询、管理自己的业务。不再受时间与地域的限制。</p>
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
 
 <!--底部-->
@@ -142,10 +218,10 @@
             </div>
             <div class="col-md-6">
                 <ul class="list-group">
-                    <li class="list-group-item friendship-link item-first">联系我们</li>
-                    <li class="list-group-item friendship-link">联系地址：XXX省XXX市XXX县XXX路XXX号</li>
-                    <li class="list-group-item friendship-link">联系电话：020-000000   000-000000</li>
-                    <li class="list-group-item friendship-link">联系邮箱：contact@fkadjkhsf.co</li>
+                    <li class="list-group-item contact-info item-first">联系我们</li>
+                    <li class="list-group-item contact-info">联系地址：XXX省XXX市XXX县XXX路XXX号</li>
+                    <li class="list-group-item contact-info">联系电话：020-000000   000-000000</li>
+                    <li class="list-group-item contact-info">联系邮箱：contact@fkadjkhsf.co</li>
                 </ul>
             </div>
         </div>

@@ -15,6 +15,13 @@ body{
 .bottom50 { margin-bottom:50px; }
 .bottom100 { margin-bottom:100px; }
 
+/*bootstrap使row中的col垂直居中*/
+.row-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+
 /* 导航条 */
 .navbar {
     min-height: 0px;
@@ -61,10 +68,14 @@ footer .row{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-footer .list-group .friendship-link {
+footer .list-group .friendship-link,
+footer .list-group .contact-info {
     font-size: 14px;
     background-color: #2d2d2d;
     border: 1px solid #2d2d2d;
+}
+footer .list-group .friendship-link:hover {
+    color: #FFF;
 }
 footer .list-group .item-first {
     padding-bottom: 20px;
