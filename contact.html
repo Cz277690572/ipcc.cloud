@@ -16,16 +16,31 @@
     <style>
         #contact-banner2{
             height: 410px;
-            position: relative;
             background: url('./images/contact_banner2.png') repeat center transparent;
         }
         #customer-qq{
             width: 130px;
             height: 42px;
             margin-top: 30px;
-            tex
+            margin-bottom: 6px;
+            text-align: center;
+            line-height: 42px;
+            color: #fff;
             display: block;
+            text-decoration: none;
             background: url("./images/contact_icon1.png") no-repeat center;
+        }
+
+        #problem{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            background: #fff;
+        }
+        .problem-title{
+            margin-top: 50px;
+            font-size: 24px;
+            color: rgb(0, 160, 233);
+            display: block;
         }
         .problem-item{
             padding: 15px 15px;
@@ -80,31 +95,31 @@
         <img src="./images/contact_banner1.jpg" height="100%" width="100%;">
     </div>
 
-    <div class="row" id="contact-banner2">
-        <div class="col-md-11 col-md-offset-1" style="top:50%;margin-top: -50px;position: absolute;">
+    <div class="row row-vertical-center" id="contact-banner2">
+        <div class="col-md-11 col-md-offset-1">
             <span style="color: rgb(33, 33, 33);font-size: 36px;">服务热线：000-000-000</span><br>
-            <a style="color: rgb(0, 160, 233);font-size: 18px;line-height: 38px;" href="http://wpa.qq.com/msgrd?v=3&amp;uin=277690572&amp;site=qq&amp;menu=yes" target="_blank">
+            <span style="color: rgb(0, 160, 233);font-size: 18px;line-height: 38px;">
                 在线客服(QQ)
-            </a><br>
+            </span><br>
             <span style="color: rgb(75, 75, 75);font-size: 14px;line-height: 36px;">在使用过程中遇到的任何问题，请联系此企业QQ咨询</span><br>
             <a id="customer-qq" href="http://wpa.qq.com/msgrd?v=3&amp;uin=277690572&amp;site=qq&amp;menu=yes" target="_blank">
-                点击交谈
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击交谈
             </a>
             <span style="color: rgb(169, 169, 169);font-size: 14px;line-height: 39px;">服务时间：周一至周六9:00 - 18:00</span>
         </div>
     </div>
 
-    <div class="row top100 bottom100" style="background: #fff;">
-        <div class="col-md-10 col-md-offset-1">
-            <span style="color: rgb(33, 33, 33);font-size: 36px;">常见问题</span><br>
-            <span style="font-size: 24px; color: rgb(0, 160, 233);display:inline-block;margin-top: 50px;">一、用户账户</span><br>
+    <div class="row row-vertical-center">
+        <div class="col-md-10 col-md-offset-1"  id="problem">
+            <span style="color: rgb(33, 33, 33); font-size: 36px;">常见问题</span><br>
+            <span class="problem-title">一、用户账户</span>
             <hr>
             <ul class="list-group">
                 <li class="list-group-item problem-item">我密码忘了，怎么找回呢？</li>
                 <li class="list-group-item problem-item">免费版和收费版有什么区别？</li>
                 <li class="list-group-item problem-item">可以先试用一下再购买吗？</li>
             </ul>
-            <span style="font-size: 24px; color: rgb(0, 160, 233);display:inline-block;margin-top: 50px;">二、购买、升级与续费</span><br>
+            <span class="problem-title">二、购买、升级与续费</span>
             <hr>
             <ul class="list-group">
                 <li class="list-group-item problem-item">我们一直都在进步</li>
@@ -113,7 +128,7 @@
                 <li class="list-group-item problem-item">蚂蚁宝卡免流范围是什么？附免流范围app</li>
                 <li class="list-group-item problem-item">王者荣耀1月3日更新了什么？附更新内容详情</li>
             </ul>
-            <span style="font-size: 24px; color: rgb(0, 160, 233);display:inline-block;margin-top: 50px;">三、其它常见问题</span><br>
+            <span class="problem-title">三、其它常见问题</span>
             <hr>
             <ul class="list-group">
                 <li class="list-group-item problem-item">我们一直都在进步</li>

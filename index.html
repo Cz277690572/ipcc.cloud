@@ -30,17 +30,74 @@
         /* 内容 */
         #problem{
             padding: 70px 0;
-        }
-        #answer{
-            background: url(./images/answer-background.jpg) no-repeat center ,transparent;
-        }
-        #product{
-
-        }
-        .tips {
-            font-size: 48px;
-            text-align: center;
             color: rgb(140, 140, 140);
+        }
+
+        #answer{
+            padding-top: 80px;
+            padding-bottom: 60px;
+            color: rgb(255, 255, 255);
+            background: url(./images/answer-background.jpg) no-repeat center transparent;
+        }
+
+        .tips {
+            margin-bottom: 50px;
+            text-align: center;
+            font-size: 48px;
+            color: rgb(255, 255, 255);
+            display: block;
+        }
+        .thumbnail{
+            background-color: transparent;
+            border: none;
+        }
+        .thumbnail-bgimg{
+            height: 217px;
+            position: relative;
+        }
+        .thumbnail-icon{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .thumbnail .caption{
+            line-height: 24px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        .thumbnail .caption .effect{
+            font-size: 24px;
+            display: block;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .thumbnail .caption .notes{
+            font-size: 14px;
+        }
+        #thumbnail-bgimg1{
+            background: url("./images/index_answer1.png") no-repeat center transparent;
+        }
+        #thumbnail-bgimg2{
+            background: url("./images/index_answer2.png") no-repeat center transparent;
+        }
+        #thumbnail-bgimg3{
+            background: url("./images/index_answer3.png") no-repeat center transparent;
+        }
+        #thumbnail-bgimg4{
+            background: url("./images/index_answer4.png") no-repeat center transparent;
+        }
+
+        .product-logo-bgimg{
+            width: 60px;
+            height: 60px;
+            position: relative;
+        }
+        .product-logo-icon{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
         }
     </style>
 
@@ -153,17 +210,85 @@
 <!--    </div>-->
 <!--</div>-->
 
-<!--<div class="container-fluid" id="answer">-->
-<!--    <div class="row">-->
-<!--        <h1 class="tips">你是否遇到这些问题？</h1>-->
-<!--    </div>-->
-<!--</div>-->
+<!--我们能做什么-->
+<div class="container-fluid" id="answer">
+    <div class="row row-vertical-center">
+        <div class="col-sm-12 col-md-12">
+            <span class="tips">我们能做什么？</span>
+        </div>
+    </div>
+    <div class="row row-vertical-center">
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <div class="thumbnail-bgimg" id="thumbnail-bgimg1">
+                    <img src="./images/index_answer1_icon.png" class="thumbnail-icon">
+                </div>
+                <div class="caption">
+                    <span class="effect">有效积累客户</span>
+                    <p class="notes">资料分门别类保存、重复过滤防止撞客、多种条件快捷查询、永不丢失</p>
+                </div>
+            </div>
+        </div>
 
-<!--<div class="container-fluid" id="product">-->
-<!--    <div class="row">-->
-<!--        <h1 class="tips">你是否遇到这些问题？</h1>-->
-<!--    </div>-->
-<!--</div>-->
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <div class="thumbnail-bgimg" id="thumbnail-bgimg2">
+                    <img src="./images/index_answer2_icon.png" class="thumbnail-icon">
+                </div>
+                <div class="caption">
+                    <span class="effect">高效团队协作</span>
+                    <p class="notes">资料分门别类保存、重复过滤防止撞客、多种条件快捷查询、永不丢失</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <div class="thumbnail-bgimg" id="thumbnail-bgimg3">
+                    <img src="./images/index_answer3_icon.png" class="thumbnail-icon">
+                </div>
+                <div class="caption">
+                    <span class="effect">提高销售</span>
+                    <p class="notes">全信息化的管理，数据清晰，带来销售业绩的增长</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail">
+                <div class="thumbnail-bgimg" id="thumbnail-bgimg4">
+                    <img src="./images/index_answer4_icon.png" class="thumbnail-icon">
+                </div>
+                <div class="caption">
+                    <span class="effect">数据分析</span>
+                    <p class="notes">清晰的统计报表，所有客户状态、销售数据、业绩排行一目了然</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--用心做好产品-->
+<div class="container-fluid" id="product">
+    <div class="row row-vertical-center">
+        <div class="col-sm-12 col-md-12">
+            <span class="tips">用心做好产品</span>
+        </div>
+    </div>
+
+    <div class="row row-vertical-center">
+        <div class="col-md-4">
+            <div class="col-md-1">
+                <div class="product-logo-bgimg">
+                    <img src="./images/" class="product-logo-icon">
+                </div>
+            </div>
+            <div class="col-md-11">
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--底部-->
 <footer>
