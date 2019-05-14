@@ -29,9 +29,44 @@
 
         /* 内容 */
         #problem{
-            padding: 70px 0;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background: #fff;
+        }
+        #problem-tips{
             color: rgb(140, 140, 140);
         }
+        .problem-bgimg{
+            width: 430px;
+            height: 90px;
+        }
+        #problem-bgimg1{
+            background: url("./images/index_problem_bgimg1.png") no-repeat transparent;
+        }
+        #problem-bgimg2{
+            background: url("./images/index_problem_bgimg2.png") no-repeat transparent;
+        }
+        #problem-bgimg3{
+            background: url("./images/index_problem_bgimg3.png") no-repeat transparent;
+        }
+        #problem-bgimg4{
+            background: url("./images/index_problem_bgimg4.png") no-repeat transparent;
+        }
+        .problem-bgimg5{
+            background: url("./images/index_problem_bgimg5.png") no-repeat transparent;
+        }
+        .problem-content{
+            padding: 10px 10px;
+            line-height: 36px;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+        }
+        .problem-result{
+            color: rgb(75, 75, 75);
+        }
+
+        
+
 
         #answer{
             padding-top: 80px;
@@ -39,7 +74,6 @@
             color: rgb(255, 255, 255);
             background: url(./images/answer-background.jpg) no-repeat center transparent;
         }
-
         .tips {
             margin-bottom: 50px;
             text-align: center;
@@ -51,11 +85,11 @@
             background-color: transparent;
             border: none;
         }
-        .thumbnail-bgimg{
+        .answer-bgimg{
             height: 217px;
             position: relative;
         }
-        .thumbnail-icon{
+        .answer-icon{
             position: absolute;
             top:50%;
             left:50%;
@@ -75,16 +109,16 @@
         .thumbnail .caption .notes{
             font-size: 14px;
         }
-        #thumbnail-bgimg1{
+        #answer-bgimg1{
             background: url("./images/index_answer1.png") no-repeat center transparent;
         }
-        #thumbnail-bgimg2{
+        #answer-bgimg2{
             background: url("./images/index_answer2.png") no-repeat center transparent;
         }
-        #thumbnail-bgimg3{
+        #answer-bgimg3{
             background: url("./images/index_answer3.png") no-repeat center transparent;
         }
-        #thumbnail-bgimg4{
+        #answer-bgimg4{
             background: url("./images/index_answer4.png") no-repeat center transparent;
         }
 
@@ -93,8 +127,7 @@
             padding-bottom: 60px;
             background: #fff;
         }
-        #product-tips
-        {
+        #product-tips{
             color: rgb(140, 140, 140);
         }
         .product-logo{
@@ -250,12 +283,57 @@
     </a>
 </div>
 
-<!--主体-->
-<!--<div class="container-fluid" id="problem">-->
-<!--    <div class="row">-->
-<!--        <h1 class="tips">你是否遇到这些问题？</h1>-->
-<!--    </div>-->
-<!--</div>-->
+<!--你是否遇到这些问题-->
+<div class="container-fluid" id="problem">
+    <div class="row row-vertical-center">
+        <div class="col-sm-12 col-md-12">
+            <span class="tips" id="problem-tips">你是否遇到这些问题？</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-1" style="margin-left:148px;height: 558px; padding-right: 0px;">
+            <div style="height: 86px;width: 100%;"></div>
+            <div class="problem-bgimg" id="problem-bgimg1">
+                <p class="problem-content">客户资料和跟进情况都记录在Excel或本子上，时间久了没法查询</p>
+            </div>
+            <div style="height: 36px;width: 100%;"></div>
+            <div class="problem-bgimg" id="problem-bgimg2">
+                <p class="problem-content">客户资料和跟进情况都记录在Excel或本子上，时间久了没法查询</p>
+            </div>
+            <div style="height: 36px;width: 100%;"></div>
+            <div class="problem-bgimg" id="problem-bgimg3">
+                <p class="problem-content">客户资料和跟进情况都记录在Excel或本子上，时间久了没法查询</p>
+            </div>
+            <div style="height: 36px;width: 100%;"></div>
+            <div class="problem-bgimg" id="problem-bgimg4">
+                <p class="problem-content">客户资料和跟进情况都记录在Excel或本子上，时间久了没法查询</p>
+            </div>
+        </div>
+
+        <div class="col-md-2" style="width:140px; text-align:center; padding-left: 0px;padding-right: 0px;">
+            <img src="./images/index_problem_icon.png">
+        </div>
+
+        <div class="col-md-4" style="height: 558px; padding-left: 0px;">
+            <div style="height: 110px;width: 100%;"></div>
+            <div class="problem-bgimg problem-bgimg5">
+                <p class="problem-content problem-result">客户资料和跟进情况都记录在Excel或本子上，时间久了没法查询</p>
+            </div>
+            <div style="height: 32px;width: 100%;"></div>
+            <div class="problem-bgimg problem-bgimg5">
+                <p class="problem-content problem-result">客户资料和跟进情况都记录在Excel或本子上，时间久了没法查询</p>
+            </div>
+            <div style="height: 32px;width: 100%;"></div>
+            <div class="problem-bgimg problem-bgimg5">
+                <p class="problem-content problem-result">客户资料和跟进情况都记录在Excel或本子上，时间久了没法查询</p>
+            </div>
+            <div style="height: 32px;width: 100%;"></div>
+            <div class="problem-bgimg problem-bgimg5">
+                <p class="problem-content problem-result">客户资料和跟进情况都记录在Excel或本子上，时间久了没法查询</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--我们能做什么-->
 <div class="container-fluid" id="answer">
@@ -267,8 +345,8 @@
     <div class="row row-vertical-center">
         <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
-                <div class="thumbnail-bgimg" id="thumbnail-bgimg1">
-                    <img src="./images/index_answer1_icon.png" class="thumbnail-icon">
+                <div class="answer-bgimg" id="answer-bgimg1">
+                    <img src="./images/index_answer1_icon.png" class="answer-icon">
                 </div>
                 <div class="caption">
                     <span class="effect">有效积累客户</span>
@@ -279,8 +357,8 @@
 
         <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
-                <div class="thumbnail-bgimg" id="thumbnail-bgimg2">
-                    <img src="./images/index_answer2_icon.png" class="thumbnail-icon">
+                <div class="answer-bgimg" id="answer-bgimg2">
+                    <img src="./images/index_answer2_icon.png" class="answer-icon">
                 </div>
                 <div class="caption">
                     <span class="effect">高效团队协作</span>
@@ -291,8 +369,8 @@
 
         <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
-                <div class="thumbnail-bgimg" id="thumbnail-bgimg3">
-                    <img src="./images/index_answer3_icon.png" class="thumbnail-icon">
+                <div class="answer-bgimg" id="answer-bgimg3">
+                    <img src="./images/index_answer3_icon.png" class="answer-icon">
                 </div>
                 <div class="caption">
                     <span class="effect">提高销售</span>
@@ -303,8 +381,8 @@
 
         <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
-                <div class="thumbnail-bgimg" id="thumbnail-bgimg4">
-                    <img src="./images/index_answer4_icon.png" class="thumbnail-icon">
+                <div class="answer-bgimg" id="answer-bgimg4">
+                    <img src="./images/index_answer4_icon.png" class="answer-icon">
                 </div>
                 <div class="caption">
                     <span class="effect">数据分析</span>
